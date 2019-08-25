@@ -20,7 +20,7 @@ font-family: 'Domine', serif; */
 	text-shadow: 2px 2px 4px #0a0a0a;
 }
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
-	color: darkblue;
+	color: #0067a6;
 	background-color: rgba(0,0,0,.2,);
 }
 nav.navbar {
@@ -38,7 +38,16 @@ nav.navbar {
     margin-bottom: 0px;
 }
 .carousel-caption {
-	z-index: 0;
+	z-index: 10;
+}
+.carousel-caption > .main_text {
+	color: #0067a6;
+	font-weight: bold;
+	padding-bottom: 125px;
+}
+.carousel-caption > h1, .carousel-caption > p {
+	color: #0067a6;
+	font-size: 20px;
 }
 .carousel-inner .item {
 	font-family: 'Cabin Sketch', cursive;
@@ -46,18 +55,11 @@ nav.navbar {
 	min-height: 100vh;
 	background-size: cover;
 	background-position: center;
+	padding-top: 200px;
 }
-.carousel-inner>.main_img1>.main_logo {
-	margin-block: center;
-	height: 250px;
-}
-
 	/* Items */
 .main_img1 {
 	background-image: url('../img/law-books.png');
-}
-.main_logo {
-	vertical-align: bottom;
 }
 .main_img2 {
 	background-image: url('../img/traffic.png');
@@ -68,7 +70,7 @@ nav.navbar {
 .main_img4 {
 	background-image: url('../img/Bankruptcy.png');
 }
-.btn-primary {
+/* .btn-primary {
 	color: darkblue;
 	background-color: #000000;
 	border-color: transparent;
@@ -76,16 +78,8 @@ nav.navbar {
 .btn-primary:hover {
 	background-color: darkgray;
 	border-color: transparent;
-}
-.carousel-caption > h1, .carousel-caption > p {
-	color: #000000;
-	font-size: 16px;
-}
-.carousel-caption > .main_text {
-	color: darkblue;
-	font-weight: bold;
-	padding-bottom: 225px;
-}
+} */
+
 /* Footer */
 footer {
 	background-image: url('../img/law-books.png');
@@ -98,6 +92,9 @@ footer {
 footer a {
 	color: #000000;
 	font-weight: bold;
+}
+footer a:hover {
+	color: #0067a6;
 }
 footer img {
 	width: 10em;
