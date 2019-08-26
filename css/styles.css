@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Domine&display=swap');
 /* font-family: 'Cabin Sketch', cursive;
 font-family: 'Domine', serif; */
+
 /* Nav_Bar */
 .nav li a:hover, .navbar-default {
 	background-color: transparent;
@@ -15,8 +16,7 @@ font-family: 'Domine', serif; */
 }
 .navbar-default .navbar-nav > li >a {
 	font-family: 'Domine', serif;
-	font-weight: bold;
-	color: darkgray;
+	color: darkred;
 	text-shadow: 2px 2px 4px #0a0a0a;
 }
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
@@ -33,53 +33,118 @@ nav.navbar {
 .navbar-brand >img {
 	height: 3em;
 }
+
 /* Carousel */
 .carousel {
     margin-bottom: 0px;
 }
 .carousel-caption {
-	z-index: 10;
+	padding-bottom: 160px;
 }
 .carousel-caption > .main_text {
+	font-family: 'Cabin Sketch', cursive;
 	color: #0067a6;
 	font-weight: bold;
-	padding-bottom: 125px;
 }
 .carousel-caption > h1, .carousel-caption > p {
+	font-family: 'Cabin Sketch', cursive;
 	color: #0067a6;
-	font-size: 20px;
+	font-weight: bold;
+}
+.carousel-caption > h1 {
+	font-size: 3em;
+}
+.carousel-caption > p {
+		font-size: 1.5em;
 }
 .carousel-inner .item {
-	font-family: 'Cabin Sketch', cursive;
 	width: 100%;
 	min-height: 100vh;
 	background-size: cover;
 	background-position: center;
 	padding-top: 200px;
 }
-	/* Items */
+
+/* Items */
 .main_img1 {
 	background-image: url('../img/law-books.png');
 }
 .main_img2 {
-	background-image: url('../img/traffic.png');
+	background-image: url('../img/Probate.png');
 }
 .main_img3 {
-	background-image: url('../img/Probate.png');
+	background-image: url('../img/traffic.png');
 }
 .main_img4 {
 	background-image: url('../img/Bankruptcy.png');
 }
-/* .btn-primary {
-	color: darkblue;
-	background-color: #000000;
+.btn-primary {
+	color: #0067a6;
+	background-color: darkred;
 	border-color: transparent;
 }
 .btn-primary:hover {
-	background-color: darkgray;
+	background-color:#0067a6;
 	border-color: transparent;
-} */
+}
 
+/* main */
+#testimony {
+    background-color: darkred;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#testimony .center {
+    margin: 0 auto;
+    float: none;
+    background-color: rgba(20,20,20,.6);
+    padding: 10px;
+	margin-top: 125px;
+	margin-bottom: 125px;
+    border-radius: 5px;
+}
+#testimony h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 5em;
+    color: #0067a6;
+    text-shadow: 1px 1px 5px #0a0a0a;    
+}
+#testimony p {
+    color: #0067a6;
+    font-family: 'Domine', serif;
+    font-weight: 300;
+    font-size: 2em;
+    text-shadow: 1px 1px 5px #0a0a0a0a;
+}
+#menu_tabs {
+	background-color: darkred;
+	border: solid 3px;
+	border-color: #0067a6;
+}
+#menu_tabs :hover {
+	border: none;
+	color: #000000;
+}
+#statistics {
+	background-color: #000000;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#statistics h1 {
+	color: #0067a6;
+  font-family: 'Cabin Sketch', cursive;
+}
+#statistics h2, #statistics p {
+	color: #0067a6;
+    font-family: 'Domine', serif;
+
+}
+#statistics img {
+	width: 100%;
+	height: 100%;
+	padding-left: 250px;
+	padding-right: 250px;
+}
 /* Footer */
 footer {
 	background-image: url('../img/law-books.png');
@@ -101,24 +166,22 @@ footer img {
 	text-align: center;
 }
 .contact_info {
-	padding-left: 40px;
-	border-right: 2px solid #000000;
-	border-left: 2px solid #000000;
-}
-.contact_info {
 	padding-top: 10px;
 	font-size-adjust: 2em;
+	text-align: center;
+	border-right: 2px solid #000000;
+	border-left: 2px solid #000000;
 }
 footer, .fine_print {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: #000000;
 	font-weight: bold;
+	text-align: center;
 }
 @media(max-width: 768px) {
 	.centered {
 		float: none;
-		margin: 0 auto;
 	}
 	.social {
 		margin: 20px 10px 0px;
