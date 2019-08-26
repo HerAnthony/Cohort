@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Domine&display=swap');
-/* font-family: 'Cabin Sketch', cursive;
-font-family: 'Domine', serif; */
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Source+Sans+Pro&display=swap');
+/* font-family: 'Averia Serif Libre', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
 
 /* Nav_Bar */
 .nav li a:hover, .navbar-default {
@@ -11,16 +11,19 @@ font-family: 'Domine', serif; */
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav .active a:hover,
 .navbar-default .navbar-nav > a:focus {
-	color: darkgray;
+	color: #666633;
 	background-color: rgba(17,17,17,.5);
 }
 .navbar-default .navbar-nav > li >a {
-	font-family: 'Domine', serif;
-	color: darkred;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #CCCC99;
 	text-shadow: 2px 2px 4px #0a0a0a;
 }
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
-	color: #0067a6;
+	color: #990033;
+	font-weight: bold;
 	background-color: rgba(0,0,0,.2,);
 }
 nav.navbar {
@@ -42,12 +45,12 @@ nav.navbar {
 	padding-bottom: 160px;
 }
 .carousel-caption > .main_text {
-	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Averia Serif Libre', cursive;
 	color: #0067a6;
 	font-weight: bold;
 }
 .carousel-caption > h1, .carousel-caption > p {
-	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Averia Serif Libre', cursive;
 	color: #0067a6;
 	font-weight: bold;
 }
@@ -55,7 +58,7 @@ nav.navbar {
 	font-size: 3em;
 }
 .carousel-caption > p {
-		font-size: 1.5em;
+	font-size: 1.5em;
 }
 .carousel-inner .item {
 	width: 100%;
@@ -80,65 +83,80 @@ nav.navbar {
 }
 .btn-primary {
 	color: #0067a6;
-	background-color: darkred;
+	background-color:   #CCCC99;
 	border-color: transparent;
+	text-shadow: 2px 2px 5px #0a0a0a;    
+
 }
 .btn-primary:hover {
-	background-color:#0067a6;
+	columns: #CCCC99;
+	background-color:#990033;
 	border-color: transparent;
 }
 
 /* main */
 #testimony {
-    background-color: darkred;
-    background-size: cover;
-    background-attachment: fixed;
+	background-color:  #666633;
+	background-size: cover;
+	background-attachment: fixed;
 }
 #testimony .center {
-    margin: 0 auto;
-    float: none;
-    background-color: rgba(20,20,20,.6);
-    padding: 10px;
-	margin-top: 125px;
-	margin-bottom: 125px;
-    border-radius: 5px;
+	margin: 0 auto;
+	float: none;
+	background-color: rgba(20,20,20,.6);
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 5px;
 }
 #testimony h1 {
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 5em;
-    color: #0067a6;
-    text-shadow: 1px 1px 5px #0a0a0a;    
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 5em;
+	color: #0067a6;
+	text-shadow: 1px 1px 5px #0a0a0a;    
 }
 #testimony p {
-    color: #0067a6;
-    font-family: 'Domine', serif;
-    font-weight: 300;
-    font-size: 2em;
-    text-shadow: 1px 1px 5px #0a0a0a0a;
+	color: #0067a6;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	text-shadow: 1px 1px 5px #0a0a0a0a;
 }
-#menu_tabs {
-	background-color: darkred;
+#menu_tabs a {
+	background-color:  #CCCC99;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 20px;
 	border: solid 3px;
 	border-color: #0067a6;
 }
 #menu_tabs :hover {
 	border: none;
-	color: #000000;
+	color: #990033;
+	font-size: 17px;
+	font-weight: bold;
 }
 #statistics {
 	background-color: #000000;
     background-size: cover;
-    background-attachment: fixed;
+	background-attachment: fixed;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 #statistics h1 {
 	color: #0067a6;
-  font-family: 'Cabin Sketch', cursive;
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 60px;
 }
+ #statistics h2 {
+	 font-size: 40px;
+ }
 #statistics h2, #statistics p {
 	color: #0067a6;
-    font-family: 'Domine', serif;
-
+	font-family: 'Source Sans Pro', sans-serif;
 }
+
 #statistics img {
 	width: 100%;
 	height: 100%;
@@ -148,35 +166,32 @@ nav.navbar {
 /* Footer */
 footer {
 	background-image: url('../img/law-books.png');
-	font-family: 'Domine', serif;
+	font-family: 'Source Sans Pro', sans-serif;
     background-size: cover;
     background-position: center;
     padding-top: 20px;
 	max-height: 100%;
 }
 footer a {
-	color: #000000;
-	font-weight: bold;
+	color: #CCCC99;
+	font-size: 17px;
 }
 footer a:hover {
-	color: #0067a6;
+	color: #990033;
+	font-weight: bold;
 }
 footer img {
-	width: 10em;
-	text-align: center;
+	width: 13em;
 }
 .contact_info {
-	padding-top: 10px;
+	padding-top: 17px;
 	font-size-adjust: 2em;
-	text-align: center;
-	border-right: 2px solid #000000;
-	border-left: 2px solid #000000;
+	text-align: left;
 }
 footer, .fine_print {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #000000;
-	font-weight: bold;
+	color: #CCCC99;
 	text-align: center;
 }
 @media(max-width: 768px) {
@@ -184,15 +199,12 @@ footer, .fine_print {
 		float: none;
 	}
 	.social {
-		margin: 20px 10px 0px;
-		font-size-adjust: 2em;
+		margin: 10px 10px;
+		font-size-adjust: 3em;
 	}
 }
 .fa-facebook-square {
 	color: #3C5A99;
-}
-.fa-camera {
-	color: #1c81a0;
 }
 .fa-twitter-square {
 	color: #1dcaff;
